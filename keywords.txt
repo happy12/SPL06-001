@@ -17,6 +17,8 @@ begin	KEYWORD2
 reset	KEYWORD2
 getStatusFIFO	KEYWORD2
 sensorID	KEYWORD2
+getEvent	KEYWORD2
+getSensor	KEYWORD2
 readTemperature	KEYWORD2
 readTemperatureF	KEYWORD2
 readPressure	KEYWORD2
