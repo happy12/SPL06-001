@@ -25,8 +25,8 @@
 #include <Adafruit_I2CDevice.h>
 #include <Adafruit_SPIDevice.h>
 
-#define SPL06_ADDRESS                   0x77 /**< Default I2C address from datacheet */
-#define SPL06_ADDRESS_ALT               0x76 /**< Alternate I2C address from datacheet */
+#define SPL06_ADDRESS                   0x77 /**< Default I2C address from datasheet */
+#define SPL06_ADDRESS_ALT               0x76 /**< Alternate I2C address from datasheet */
 
 #define SPL06_PRODID (0x10) /**< Default Product ID. */
 
