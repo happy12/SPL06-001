@@ -6,7 +6,7 @@
 SPL06 press_spl06; // I2C
 
 void setup() {
-  while (! Serial);
+  //while (! Serial);
   Serial.begin(115200);
 
   Serial.println("SPL06-001 Demo\n");
