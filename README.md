@@ -2,6 +2,7 @@
 SPL06-001 library for Arduino processors
 
 Arduino library for the SPL06-001 pressure sensor.
+Derived from Adafruit_Sensor open-source library
 Code was developed and tested on an ESP32-S2 microcontroller.
 Code was tested with I2C communication setup
 
