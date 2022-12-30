@@ -1,0 +1,63 @@
+#######################################
+# Syntax Coloring Map for SPL06-001 library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+SPL06-001	KEYWORD1
+SPL06_Temp	KEYWORD1
+SPL06_Pressure	KEYWORD1
+spl06_calib_data	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+reset	KEYWORD2
+getStatusFIFO	KEYWORD2
+sensorID	KEYWORD2
+readTemperature	KEYWORD2
+readTemperatureF	KEYWORD2
+readPressure	KEYWORD2
+readPressureKPa	KEYWORD2
+readPressureATM	KEYWORD2
+readPressureMBar	KEYWORD2
+readPressurePSI	KEYWORD2
+readPressureMMHg	KEYWORD2
+readPressureINHg	KEYWORD2
+readPressureAltitudeMeter	KEYWORD2
+readPressureAltitudeFeet	KEYWORD2
+getTemperatureSensor	KEYWORD2
+getPressureSensor	KEYWORD2
+setSampling	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SAMPLING_NONE	LITERAL1
+SAMPLING_X1	LITERAL1
+SAMPLING_X2	LITERAL1
+SAMPLING_X4	LITERAL1
+SAMPLING_X8	LITERAL1
+SAMPLING_X16	LITERAL1
+SAMPLING_X32	LITERAL1
+SAMPLING_X64	LITERAL1
+SAMPLING_X128	LITERAL1
+MODE_STANDBY	LITERAL1
+MODE_FORCED_P	LITERAL1
+MODE_FORCED_T	LITERAL1
+MODE_BACKGND_P	LITERAL1
+MODE_BACKGND_T	LITERAL1
+MODE_BACKGND_BOTH	LITERAL1
+MODE_SOFT_RESET_CODE	LITERAL1
+FILTER_OFF	LITERAL1
+
+RATE_X1	LITERAL1
+RATE_X2	LITERAL1
+RATE_X4	LITERAL1
+RATE_X8	LITERAL1
+RATE_X16	LITERAL1
+RATE_X32	LITERAL1
+RATE_X64	LITERAL1
+RATE_X128	LITERAL1
