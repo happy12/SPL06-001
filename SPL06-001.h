@@ -3,7 +3,7 @@
 /*!
  *  FILE: SPL06-001.h
  *  AUTHOR: Mathieu Fregeau
- *  VERSION: 0.1.0
+ *  VERSION: 1.0.0
  *  DATE: 2022-12-29
  *
  *  This is a library for the SPL06-001 pressure sensor
