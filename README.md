@@ -9,7 +9,7 @@ Code was tested with I2C communication setup.
 Provides Temperature in Celcius (default) and Fahrenheit. Though SPL06-001 is fairly innacurate for the temperature (0.5C).
 Provides Pressure in Pascal (default), and kPa, millibar, Atmosphere, PSI, mm of Mercury, inches of Mercury.
 
-Provides Barometric pressure corrected for sea level (aka Pressure Altitute). If no correction setting is provided, standard sea level standard day is used.
+Provides Altitude from Barometric pressure corrected for sea level (aka Pressure Altitute). If no correction setting is provided, standard sea level standard day is used.
 This corrected Pressure Altitute is useful for aviation purposes.
 The correction setting value for Pressure Altitude can be provided either in:
    - mbar with the Pressure Altitude result in meters
