@@ -34,7 +34,7 @@ void loop() {
   Serial.print(" \xc2\xb0"); Serial.println("C");
 
   Serial.print(press_spl06.readPressureMBar()); Serial.println(" mbar");
-  Serial.print(press_spl06.readPressureAltitudeMeters()); Serial.println(" meters (uncorrected)");
+  Serial.print(press_spl06.readPressureAltitudeMeter()); Serial.println(" meters (uncorrected)");
   Serial.print(press_spl06.readPressureAltitudeFeet(29.91)); Serial.println(" feet");
 
   delay(5000); // 5 sec
